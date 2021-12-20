@@ -1,0 +1,16 @@
+@use "./home";
+
+.container-detail {
+  padding: 2rem 8vw;
+  background-color: home.$bg-primary;
+  color: home.$color-primary;
+}
+.container-img-detail {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.profile {
+  color: rgb(194, 181, 179);
+}

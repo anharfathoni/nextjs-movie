@@ -1,15 +1,25 @@
 @import "./pages/home";
+@import "./pages/detail-movie";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Mulish:wght@400;600;700&display=swap");
 
 body {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
+  color: #fff;
 }
 
-.font1 {
-  font-family: "Merriweather", sans-serif;
+.ant-switch {
+  background-color: #ee4848;
 }
 
-.font2 {
-  font-family: "Mulish", sans-serif;
+.ant-switch-checked {
+  background-color: #1890ff !important;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.w-fit {
+  width: fit-content;
 }
